@@ -1,0 +1,1179 @@
+{
+  "hopitaux": [
+    {
+      "id": "9d936f24-b2d8-4221-b333-aa217da8423b",
+      "nom": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "2a480545-1c39-4f12-ad3c-e9a769659827",
+      "nom": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "9914973f-4d9c-47c5-a157-695bdad79447",
+      "nom": "Hôpital Cochin"
+    }
+  ],
+  "medecins": [
+    {
+      "id": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "nom": "Dr Dupont",
+      "specialite": "Radiologie",
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "nom": "Dr Bernard",
+      "specialite": "Gynécologie",
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "nom": "Dr Lefevre",
+      "specialite": "Radiologie",
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "nom": "Dr Moreau",
+      "specialite": "Neurologie",
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "nom": "Dr Petit",
+      "specialite": "Orthopédie",
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    },
+    {
+      "id": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "nom": "Dr Durand",
+      "specialite": "Radiologie",
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    }
+  ],
+  "echographes": [
+    {
+      "id": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "designation": "Echographe Modèle 1",
+      "systemId": "SYS001",
+      "numeroSerie": "SN001",
+      "versionLogicielle": "v3.2",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-03-24",
+      "parametresReseaux": "192.168.1.10",
+      "diagnostic": "OK",
+      "tempsVeille": 23,
+      "nbExtinctions": 18,
+      "heuresSurBatterie": 47,
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "designation": "Echographe Modèle 2",
+      "systemId": "SYS002",
+      "numeroSerie": "SN002",
+      "versionLogicielle": "v1.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-11-08",
+      "parametresReseaux": "192.168.1.11",
+      "diagnostic": "OK",
+      "tempsVeille": 48,
+      "nbExtinctions": 11,
+      "heuresSurBatterie": 50,
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "designation": "Echographe Modèle 3",
+      "systemId": "SYS003",
+      "numeroSerie": "SN003",
+      "versionLogicielle": "v2.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-02-20",
+      "parametresReseaux": "192.168.1.12",
+      "diagnostic": "OK",
+      "tempsVeille": 12,
+      "nbExtinctions": 4,
+      "heuresSurBatterie": 37,
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    },
+    {
+      "id": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "designation": "Echographe Modèle 4",
+      "systemId": "SYS004",
+      "numeroSerie": "SN004",
+      "versionLogicielle": "v1.8",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-15",
+      "parametresReseaux": "192.168.1.13",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 20,
+      "heuresSurBatterie": 33,
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "designation": "Echographe Modèle 5",
+      "systemId": "SYS005",
+      "numeroSerie": "SN005",
+      "versionLogicielle": "v1.9",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-10-30",
+      "parametresReseaux": "192.168.1.14",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 14,
+      "heuresSurBatterie": 47,
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "designation": "Echographe Modèle 6",
+      "systemId": "SYS006",
+      "numeroSerie": "SN006",
+      "versionLogicielle": "v2.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2024-02-26",
+      "parametresReseaux": "192.168.1.15",
+      "diagnostic": "OK",
+      "tempsVeille": 49,
+      "nbExtinctions": 11,
+      "heuresSurBatterie": 10,
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    },
+    {
+      "id": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "designation": "Echographe Modèle 7",
+      "systemId": "SYS007",
+      "numeroSerie": "SN007",
+      "versionLogicielle": "v2.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-06-23",
+      "parametresReseaux": "192.168.1.16",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 6,
+      "heuresSurBatterie": 7,
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "designation": "Echographe Modèle 8",
+      "systemId": "SYS008",
+      "numeroSerie": "SN008",
+      "versionLogicielle": "v2.9",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-05-08",
+      "parametresReseaux": "192.168.1.17",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 6,
+      "heuresSurBatterie": 35,
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "designation": "Echographe Modèle 9",
+      "systemId": "SYS009",
+      "numeroSerie": "SN009",
+      "versionLogicielle": "v1.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-08-15",
+      "parametresReseaux": "192.168.1.18",
+      "diagnostic": "OK",
+      "tempsVeille": 32,
+      "nbExtinctions": 1,
+      "heuresSurBatterie": 50,
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    },
+    {
+      "id": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "designation": "Echographe Modèle 10",
+      "systemId": "SYS010",
+      "numeroSerie": "SN010",
+      "versionLogicielle": "v2.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-03-09",
+      "parametresReseaux": "192.168.1.19",
+      "diagnostic": "OK",
+      "tempsVeille": 26,
+      "nbExtinctions": 7,
+      "heuresSurBatterie": 11,
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "designation": "Echographe Modèle 11",
+      "systemId": "SYS011",
+      "numeroSerie": "SN011",
+      "versionLogicielle": "v1.3",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-11-11",
+      "parametresReseaux": "192.168.1.20",
+      "diagnostic": "OK",
+      "tempsVeille": 12,
+      "nbExtinctions": 15,
+      "heuresSurBatterie": 18,
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "designation": "Echographe Modèle 12",
+      "systemId": "SYS012",
+      "numeroSerie": "SN012",
+      "versionLogicielle": "v1.5",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-10-15",
+      "parametresReseaux": "192.168.1.21",
+      "diagnostic": "OK",
+      "tempsVeille": 47,
+      "nbExtinctions": 18,
+      "heuresSurBatterie": 26,
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    },
+    {
+      "id": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "designation": "Echographe Modèle 13",
+      "systemId": "SYS013",
+      "numeroSerie": "SN013",
+      "versionLogicielle": "v3.1",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-09-20",
+      "parametresReseaux": "192.168.1.22",
+      "diagnostic": "OK",
+      "tempsVeille": 33,
+      "nbExtinctions": 2,
+      "heuresSurBatterie": 35,
+      "hopitalId": "9d936f24-b2d8-4221-b333-aa217da8423b"
+    },
+    {
+      "id": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "designation": "Echographe Modèle 14",
+      "systemId": "SYS014",
+      "numeroSerie": "SN014",
+      "versionLogicielle": "v3.1",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-30",
+      "parametresReseaux": "192.168.1.23",
+      "diagnostic": "OK",
+      "tempsVeille": 49,
+      "nbExtinctions": 13,
+      "heuresSurBatterie": 50,
+      "hopitalId": "2a480545-1c39-4f12-ad3c-e9a769659827"
+    },
+    {
+      "id": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "designation": "Echographe Modèle 15",
+      "systemId": "SYS015",
+      "numeroSerie": "SN015",
+      "versionLogicielle": "v1.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-11-18",
+      "parametresReseaux": "192.168.1.24",
+      "diagnostic": "OK",
+      "tempsVeille": 29,
+      "nbExtinctions": 15,
+      "heuresSurBatterie": 41,
+      "hopitalId": "9914973f-4d9c-47c5-a157-695bdad79447"
+    }
+  ],
+  "sondes": [
+    {
+      "id": "36f70643-5cfc-4fb6-ad52-d3d3c6058d16",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-04-20",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "ef229ebf-3bdb-4e08-8626-e34193aa5f95",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-03-04",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "dcee1cfe-4efa-4a81-b145-ffbde1660d85",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "type": "Linéaire",
+      "dateMiseEnService": "2025-01-29",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "94b1bd9f-da97-4537-a0b7-3efc2da802c8",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-08-10",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "d86eac17-831e-4a3a-aed2-76b759a0e2d7",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-07-08",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "ade74414-276b-48a1-afba-2055e32b0909",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-04-27",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "e5dbdc26-4b9e-4079-929c-f74ba99446e1",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-12-23",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "0474bb28-1d1a-41f4-94c3-1409760a1077",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-10-27",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "b625cfdb-1a41-42b1-8058-22342d8231d3",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-10-16",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "5d804f9b-050c-49c8-9ce9-079231f97a66",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-11-07",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "57336486-ae2f-499d-97a0-d7c7109af9c7",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-01-10",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "ddd5f0e6-39ff-4a04-a013-f8903cddccd2",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-04-08",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "e66c206c-6d16-4229-913b-0a2bbce604af",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-06-21",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "efdb2de2-f847-4922-8724-169ef1bdc92b",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "type": "Secteur",
+      "dateMiseEnService": "2024-12-30",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "20d6694d-9917-4722-91a8-30a3573c1bf7",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-12-17",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "0caa7c61-b413-48de-80e0-e4bfd694360b",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-07-05",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "2e5dec13-6733-4ceb-a868-f71aa4e67b65",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-06-24",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "a454a948-e98d-47c9-b51f-a10e7c9ed378",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-02-04",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "700505b8-3a20-4bf6-a988-984e5a646ae9",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-08-26",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "f2df72b0-c821-4789-b84e-a48da38b6f68",
+      "echographeId": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "type": "Secteur",
+      "dateMiseEnService": "2022-12-22",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "0994d759-c404-4cdf-b594-f3ebf8bb69d0",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-10-05",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "544bc1ee-8c31-4db0-8313-02948253cfad",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-04-02",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "90cfd4ab-ddf7-494f-bb1d-98075a261e2c",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-01-02",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "58415492-5339-4a1a-b77a-a25bb22dbf3e",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-02-29",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "9796a8fd-e870-4b5e-8373-f55cc1960705",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-06-25",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "c92cb68d-dfd9-4211-94ee-b96931a36a51",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-04-27",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "f6e1baec-d3a6-450d-a4fc-b3e2fb10ec87",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-10-06",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "fbf56e35-3a5a-4cf9-8819-d182dc70d321",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-11-09",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "95035ca6-dcf1-42c2-945c-08609e5afc4e",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-10-22",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "4a96d71f-1113-4b70-9730-31887ed7dc98",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-10-23",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "7e4016bf-5fad-4ecf-84c6-143b1f412395",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-09-23",
+      "rapportControleQualite": "Changement connecteur"
+    }
+  ],
+  "utilisations": [
+    {
+      "id": "19061ef9-1a9e-458d-b26a-8936b11a85dc",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "heuresTotalesUtilisation": 985,
+      "heuresUtilisationParSonde": 332
+    },
+    {
+      "id": "158e3f22-1012-4cb1-a9fc-b94cdd2be0d9",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "heuresTotalesUtilisation": 663,
+      "heuresUtilisationParSonde": 434
+    },
+    {
+      "id": "ced54651-9401-4728-a347-1b1aa133314b",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "heuresTotalesUtilisation": 1917,
+      "heuresUtilisationParSonde": 861
+    },
+    {
+      "id": "6519c316-d585-4b49-a0e0-0599645ec6c6",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "heuresTotalesUtilisation": 1399,
+      "heuresUtilisationParSonde": 480
+    },
+    {
+      "id": "ee61d8f7-ad4f-4ff8-aa67-b7ddee9eb8e6",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "heuresTotalesUtilisation": 904,
+      "heuresUtilisationParSonde": 444
+    },
+    {
+      "id": "78e606c9-0f2e-4f3a-9adf-918f9c0f46e6",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "heuresTotalesUtilisation": 1865,
+      "heuresUtilisationParSonde": 205
+    },
+    {
+      "id": "7de44436-cad3-496a-9019-d279971aa43a",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "heuresTotalesUtilisation": 1534,
+      "heuresUtilisationParSonde": 511
+    },
+    {
+      "id": "ff465552-1b74-4c15-a793-4010bbbe23e3",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "heuresTotalesUtilisation": 907,
+      "heuresUtilisationParSonde": 419
+    },
+    {
+      "id": "5041c528-e935-43f1-bffa-70810ef3aa8a",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "heuresTotalesUtilisation": 1073,
+      "heuresUtilisationParSonde": 644
+    },
+    {
+      "id": "fb6e168b-2588-413e-b450-15f3dba65107",
+      "echographeId": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "heuresTotalesUtilisation": 1881,
+      "heuresUtilisationParSonde": 524
+    },
+    {
+      "id": "a992bd34-209c-45b1-abc9-8f6c852c152a",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "heuresTotalesUtilisation": 1450,
+      "heuresUtilisationParSonde": 796
+    },
+    {
+      "id": "b09a90c8-e563-4d74-94d9-1b3a48e0350a",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "heuresTotalesUtilisation": 1332,
+      "heuresUtilisationParSonde": 327
+    },
+    {
+      "id": "502d1463-069e-45db-af49-bf1b36515025",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "heuresTotalesUtilisation": 1255,
+      "heuresUtilisationParSonde": 511
+    },
+    {
+      "id": "c222314d-c2d5-4a4c-8116-6edbd8788149",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "heuresTotalesUtilisation": 914,
+      "heuresUtilisationParSonde": 926
+    },
+    {
+      "id": "483cd4b7-6ed5-440d-a59d-a67a545de452",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "heuresTotalesUtilisation": 1635,
+      "heuresUtilisationParSonde": 471
+    }
+  ],
+  "examens": [
+    {
+      "id": "604a04fe-707d-482f-a133-ba3a62ef3c20",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 49,
+      "dureeEffectiveEchoMinutes": 36,
+      "dateExamen": "2024-09-02T09:02:00"
+    },
+    {
+      "id": "6da032ca-fb23-4d6e-bfea-7b0ba69396ce",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 33,
+      "dureeEffectiveEchoMinutes": 18,
+      "dateExamen": "2024-11-15T09:02:00"
+    },
+    {
+      "id": "f6aae63a-892a-45dc-97d3-bff5f5e635a7",
+      "echographeId": "886f382e-e982-4ae3-8acc-ec8a82a3e6bb",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 42,
+      "dureeEffectiveEchoMinutes": 34,
+      "dateExamen": "2025-04-17T09:02:00"
+    },
+    {
+      "id": "72ffae86-fb07-4e32-917d-d9567edecc08",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 24,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2025-01-22T09:02:00"
+    },
+    {
+      "id": "6f768fce-e6da-4d74-a868-f56578d687e9",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "MSK",
+      "dureeTotaleMinutes": 28,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2024-07-17T09:02:00"
+    },
+    {
+      "id": "a4ec33da-0eb0-415f-b230-d4b35696cd37",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 45,
+      "dateExamen": "2024-10-16T09:02:00"
+    },
+    {
+      "id": "e51ffef6-1c56-44ee-afb3-aad9b19739d8",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2025-01-20T09:02:00"
+    },
+    {
+      "id": "907dc885-6a7e-401b-b1d4-9f486fb3249b",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "MSK",
+      "dureeTotaleMinutes": 45,
+      "dureeEffectiveEchoMinutes": 35,
+      "dateExamen": "2024-07-11T09:02:00"
+    },
+    {
+      "id": "112371ef-2bb2-4659-a8ad-9fac140ec96f",
+      "echographeId": "02b03b51-a058-4eee-82aa-8b1c5e89b837",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2025-03-07T09:02:00"
+    },
+    {
+      "id": "8ab43bd0-b5c6-4d02-83f8-ac9ed514dfef",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-11-27T09:02:00"
+    },
+    {
+      "id": "f3acb21a-30ee-4c9b-855a-35f0578dfbce",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 53,
+      "dateExamen": "2025-02-23T09:02:00"
+    },
+    {
+      "id": "3b0a2c39-7645-4f8d-a825-4db14ebffd13",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 11,
+      "dateExamen": "2024-12-12T09:02:00"
+    },
+    {
+      "id": "edbe5fff-53fa-47bc-9159-a30d684b4188",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 46,
+      "dureeEffectiveEchoMinutes": 41,
+      "dateExamen": "2025-03-24T09:02:00"
+    },
+    {
+      "id": "58ca9f70-e728-48c3-b57d-e2fa990b73c7",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "MSK",
+      "dureeTotaleMinutes": 51,
+      "dureeEffectiveEchoMinutes": 43,
+      "dateExamen": "2024-12-21T09:02:00"
+    },
+    {
+      "id": "dcc52294-f456-4a52-9159-f33e90662e84",
+      "echographeId": "de02965f-6190-4110-b3ab-5a502fbecf53",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-06-21T09:02:00"
+    },
+    {
+      "id": "181a24a4-332a-440c-87ba-8855033ef2e4",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 50,
+      "dateExamen": "2025-02-28T09:02:00"
+    },
+    {
+      "id": "654ec05c-84c8-4b9f-851a-4ebfabedd3c3",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 52,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-10-25T09:02:00"
+    },
+    {
+      "id": "f6214880-9434-416d-9175-b97dbead3dda",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 49,
+      "dateExamen": "2025-01-18T09:02:00"
+    },
+    {
+      "id": "fb51582c-1b9b-4b0b-acc6-1c123c553b14",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 54,
+      "dureeEffectiveEchoMinutes": 41,
+      "dateExamen": "2024-10-31T09:02:00"
+    },
+    {
+      "id": "d49c10b9-0c78-4e04-bd42-4ede29804afa",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 21,
+      "dateExamen": "2024-11-11T09:02:00"
+    },
+    {
+      "id": "963f9a75-ca74-4498-9468-3d785933157b",
+      "echographeId": "cda0b42f-95dd-42cc-aa92-fc9b38613b69",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 22,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2024-09-30T09:02:00"
+    },
+    {
+      "id": "36b0e950-8890-4a9c-b5ab-c40f43f5674e",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 50,
+      "dureeEffectiveEchoMinutes": 38,
+      "dateExamen": "2024-12-02T09:02:00"
+    },
+    {
+      "id": "bd598a60-a1e6-49c9-8f1c-377a290c6630",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "MSK",
+      "dureeTotaleMinutes": 23,
+      "dureeEffectiveEchoMinutes": 11,
+      "dateExamen": "2025-02-23T09:02:00"
+    },
+    {
+      "id": "4725e5a8-767f-4d0e-a203-47e6f79dfdda",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 18,
+      "dateExamen": "2024-12-13T09:02:00"
+    },
+    {
+      "id": "98f30e89-8f56-4baf-9fdb-ce44833bec1c",
+      "echographeId": "d8ca4026-8645-4dd5-ad9c-e14e5fccb54f",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "MSK",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 15,
+      "dateExamen": "2024-08-03T09:02:00"
+    },
+    {
+      "id": "dfd1cdfc-891b-4572-ae6b-3d66a0b6c40f",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 39,
+      "dureeEffectiveEchoMinutes": 26,
+      "dateExamen": "2025-02-28T09:02:00"
+    },
+    {
+      "id": "f88aa933-c178-4981-a0de-55bb2cf4deb3",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 33,
+      "dureeEffectiveEchoMinutes": 21,
+      "dateExamen": "2025-03-20T09:02:00"
+    },
+    {
+      "id": "37cd783d-e28c-4f6f-857b-5df6b6f8e216",
+      "echographeId": "eda21383-280e-438e-8f5e-b1995ea8bdc9",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2025-03-26T09:02:00"
+    },
+    {
+      "id": "f1ba2c94-6cdf-4cce-b144-00fa3e5ebd82",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 26,
+      "dateExamen": "2024-12-26T09:02:00"
+    },
+    {
+      "id": "ed00f51d-24db-457b-801a-3c84a3fc461b",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 34,
+      "dureeEffectiveEchoMinutes": 19,
+      "dateExamen": "2025-03-31T09:02:00"
+    },
+    {
+      "id": "bc08f675-7835-4847-957d-aa4ff2e10df1",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 32,
+      "dureeEffectiveEchoMinutes": 27,
+      "dateExamen": "2025-01-11T09:02:00"
+    },
+    {
+      "id": "c6be6135-4a1a-47f0-b898-522cc0ca8859",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 29,
+      "dureeEffectiveEchoMinutes": 24,
+      "dateExamen": "2024-06-22T09:02:00"
+    },
+    {
+      "id": "f66c750c-c71b-4acc-8c3c-a1045749c05e",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "MSK",
+      "dureeTotaleMinutes": 52,
+      "dureeEffectiveEchoMinutes": 47,
+      "dateExamen": "2025-03-03T09:02:00"
+    },
+    {
+      "id": "29d50c85-bf39-44b6-b1ee-dd091e87fbe9",
+      "echographeId": "bc2437b8-59e0-4781-8420-9ae86ec46605",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 19,
+      "dateExamen": "2025-04-15T09:02:00"
+    },
+    {
+      "id": "5841a1fd-5591-406f-b996-2425c2cb359f",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 26,
+      "dureeEffectiveEchoMinutes": 20,
+      "dateExamen": "2025-02-27T09:02:00"
+    },
+    {
+      "id": "b3c0b560-12bf-47a8-8bed-c024abd4b477",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 27,
+      "dureeEffectiveEchoMinutes": 21,
+      "dateExamen": "2024-09-11T09:02:00"
+    },
+    {
+      "id": "48dfab7c-c60d-46b9-8bb3-40c1b11aca98",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 54,
+      "dureeEffectiveEchoMinutes": 40,
+      "dateExamen": "2025-04-15T09:02:00"
+    },
+    {
+      "id": "438b304e-f1e1-4fef-a8ac-5a58055b8ea3",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "MSK",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 47,
+      "dateExamen": "2024-08-11T09:02:00"
+    },
+    {
+      "id": "63afe835-92ea-49d6-bc6f-dd67c21ce2e7",
+      "echographeId": "24f5cb6d-1d06-4952-80b8-43fbde6dbed0",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 45,
+      "dureeEffectiveEchoMinutes": 30,
+      "dateExamen": "2025-04-03T09:02:00"
+    },
+    {
+      "id": "0795ebb3-9034-410c-a237-9493beb21872",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 40,
+      "dureeEffectiveEchoMinutes": 28,
+      "dateExamen": "2024-12-10T09:02:00"
+    },
+    {
+      "id": "d5e57415-a174-4edf-9d82-5b9714c9724b",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2025-02-20T09:02:00"
+    },
+    {
+      "id": "0b606671-57ae-4bcc-84ed-85f3e01434a3",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "MSK",
+      "dureeTotaleMinutes": 21,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2024-10-06T09:02:00"
+    },
+    {
+      "id": "eea8910c-cba5-49f3-babb-67c4be5f88a5",
+      "echographeId": "14ff30b0-f4fb-4668-a11e-6c4c83f8590a",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 47,
+      "dureeEffectiveEchoMinutes": 33,
+      "dateExamen": "2024-10-16T09:02:00"
+    },
+    {
+      "id": "c6cdbed7-70ec-4ed3-8f8c-583562a1b816",
+      "echographeId": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "MSK",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2024-06-07T09:02:00"
+    },
+    {
+      "id": "d950c329-5fef-4cd2-b97c-ef9d1ec3494e",
+      "echographeId": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 24,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2024-12-07T09:02:00"
+    },
+    {
+      "id": "89612abb-6b8b-45e1-abdc-56804eec5f6b",
+      "echographeId": "bcbbad1f-6da7-4314-9dc0-c9f9c0abc460",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 49,
+      "dureeEffectiveEchoMinutes": 36,
+      "dateExamen": "2025-04-27T09:02:00"
+    },
+    {
+      "id": "2f59fc51-cd13-4c3d-95b1-f586499c9458",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 45,
+      "dureeEffectiveEchoMinutes": 32,
+      "dateExamen": "2025-04-18T09:02:00"
+    },
+    {
+      "id": "008642e9-7463-4931-aa86-ba2a35e1e476",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 39,
+      "dureeEffectiveEchoMinutes": 29,
+      "dateExamen": "2024-12-11T09:02:00"
+    },
+    {
+      "id": "6a7d9152-7ad1-4c49-815e-81971f8d614a",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 34,
+      "dureeEffectiveEchoMinutes": 19,
+      "dateExamen": "2025-02-17T09:02:00"
+    },
+    {
+      "id": "db157ab5-fefe-42eb-a38b-89644c549067",
+      "echographeId": "7d01ac95-328a-463f-a790-90d6d811bc47",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 44,
+      "dureeEffectiveEchoMinutes": 34,
+      "dateExamen": "2024-09-10T09:02:00"
+    },
+    {
+      "id": "6733ce8c-a8b1-4036-9747-9d6fec0a458b",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 49,
+      "dureeEffectiveEchoMinutes": 37,
+      "dateExamen": "2025-04-04T09:02:00"
+    },
+    {
+      "id": "056c2407-b7b5-4cf8-9691-bd1e017e86c0",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "MSK",
+      "dureeTotaleMinutes": 22,
+      "dureeEffectiveEchoMinutes": 7,
+      "dateExamen": "2024-07-27T09:02:00"
+    },
+    {
+      "id": "6a8ac3a5-7921-47a5-9ad1-823f8b746701",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 44,
+      "dureeEffectiveEchoMinutes": 37,
+      "dateExamen": "2025-02-11T09:02:00"
+    },
+    {
+      "id": "c18b7d0b-ed20-4243-9b1a-f157f0f049af",
+      "echographeId": "d67734c2-d8c7-47f1-a756-da59c15838c8",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 35,
+      "dureeEffectiveEchoMinutes": 27,
+      "dateExamen": "2024-07-31T09:02:00"
+    },
+    {
+      "id": "d4e9ded2-f31b-4ee5-8d0f-4f427f7d87fe",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 54,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-09-15T09:02:00"
+    },
+    {
+      "id": "b9d31d2d-2d5e-4966-8847-9818b4cb8744",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "medecinId": "d4b9a43d-863b-4bf0-9870-319980a0bb34",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 38,
+      "dureeEffectiveEchoMinutes": 27,
+      "dateExamen": "2024-11-17T09:02:00"
+    },
+    {
+      "id": "9808279f-71f7-4090-a8e1-92bac1373f8f",
+      "echographeId": "1a16b75e-6798-4fa9-866f-73fa826373e4",
+      "medecinId": "5223295d-49a1-4451-b3c8-8b84388165e2",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 49,
+      "dureeEffectiveEchoMinutes": 37,
+      "dateExamen": "2024-08-18T09:02:00"
+    },
+    {
+      "id": "a2d31ace-52b1-4831-a4fd-fb365455e267",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 30,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2024-12-26T09:02:00"
+    },
+    {
+      "id": "75c0cb10-441d-401c-9bfb-7b181125552f",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 52,
+      "dureeEffectiveEchoMinutes": 45,
+      "dateExamen": "2025-04-14T09:02:00"
+    },
+    {
+      "id": "d650d230-eadc-4877-8be5-f1111321acdb",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "medecinId": "a61ede4d-7ded-4c70-a2bb-fd4c4939c9d9",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 50,
+      "dateExamen": "2024-12-30T09:02:00"
+    },
+    {
+      "id": "2d455e34-acbc-4aca-9e50-b70438dc438e",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 41,
+      "dureeEffectiveEchoMinutes": 31,
+      "dateExamen": "2024-11-05T09:02:00"
+    },
+    {
+      "id": "28dc8609-1062-4c9d-9ba4-646873ea8679",
+      "echographeId": "a417de20-d253-4dd4-b56d-00157d32c53f",
+      "medecinId": "42d444b4-30de-4473-a198-654fa1966ed8",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 36,
+      "dureeEffectiveEchoMinutes": 28,
+      "dateExamen": "2025-03-22T09:02:00"
+    },
+    {
+      "id": "0416f8f5-85e5-495c-b256-9da0ed644196",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "medecinId": "b741868e-63ae-4417-8e03-7b5abaa6d3f9",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 22,
+      "dureeEffectiveEchoMinutes": 11,
+      "dateExamen": "2024-12-29T09:02:00"
+    },
+    {
+      "id": "6fe0a015-f363-416a-876b-a17aa0f4b4d7",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 7,
+      "dateExamen": "2024-10-22T09:02:00"
+    },
+    {
+      "id": "fd5cbab0-2423-4fd1-81b9-49e7fa63d1fd",
+      "echographeId": "6f0d40a2-9499-45b0-856e-49ac746b76a2",
+      "medecinId": "64cebe50-9e3a-452e-88c5-fe2b09796bb6",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 27,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2024-07-07T09:02:00"
+    }
+  ]
+}

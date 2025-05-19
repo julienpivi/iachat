@@ -1,0 +1,1274 @@
+{
+  "echographes": [
+    {
+      "designation": "Echographe Modèle 1",
+      "systemId": "SYS001",
+      "numeroSerie": "SN001",
+      "versionLogicielle": "v1.2",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-07-28",
+      "parametresReseaux": "192.168.1.10",
+      "diagnostic": "OK",
+      "tempsVeille": 36,
+      "nbExtinctions": 20,
+      "heuresSurBatterie": 47,
+      "hopital": "Hôpital Saint-Louis",
+      "sondes": [
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2023-10-16",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2024-11-15",
+          "rapportControleQualite": "Changement connecteur"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1381,
+        "heuresUtilisationParSonde": 791
+      },
+      "examens": [
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 41,
+          "dureeEffectiveEchoMinutes": 33,
+          "dateExamen": "2025-03-22T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 21,
+          "dureeEffectiveEchoMinutes": 8,
+          "dateExamen": "2024-12-01T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 39,
+          "dureeEffectiveEchoMinutes": 32,
+          "dateExamen": "2024-09-09T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 31,
+          "dureeEffectiveEchoMinutes": 18,
+          "dateExamen": "2025-01-05T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 31,
+          "dureeEffectiveEchoMinutes": 21,
+          "dateExamen": "2024-07-16T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 2",
+      "systemId": "SYS002",
+      "numeroSerie": "SN002",
+      "versionLogicielle": "v2.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-03-13",
+      "parametresReseaux": "192.168.1.11",
+      "diagnostic": "OK",
+      "tempsVeille": 13,
+      "nbExtinctions": 11,
+      "heuresSurBatterie": 46,
+      "hopital": "Hôpital Jean Verdier",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-08-28",
+          "rapportControleQualite": "Changement connecteur"
+        },
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-02-27",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 712,
+        "heuresUtilisationParSonde": 768
+      },
+      "examens": [
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 39,
+          "dureeEffectiveEchoMinutes": 24,
+          "dateExamen": "2024-12-14T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 55,
+          "dureeEffectiveEchoMinutes": 46,
+          "dateExamen": "2024-12-30T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 44,
+          "dureeEffectiveEchoMinutes": 37,
+          "dateExamen": "2024-12-12T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 28,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2025-05-17T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 39,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2024-09-09T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 32,
+          "dureeEffectiveEchoMinutes": 25,
+          "dateExamen": "2024-10-10T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 23,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2024-11-10T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 3",
+      "systemId": "SYS003",
+      "numeroSerie": "SN003",
+      "versionLogicielle": "v3.6",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-04-25",
+      "parametresReseaux": "192.168.1.12",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 4,
+      "heuresSurBatterie": 23,
+      "hopital": "Hôpital Cochin",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2023-07-28",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 668,
+        "heuresUtilisationParSonde": 480
+      },
+      "examens": [
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 35,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2024-08-01T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 50,
+          "dureeEffectiveEchoMinutes": 36,
+          "dateExamen": "2024-06-21T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 60,
+          "dureeEffectiveEchoMinutes": 54,
+          "dateExamen": "2025-03-22T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 20,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2024-05-27T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 4",
+      "systemId": "SYS004",
+      "numeroSerie": "SN004",
+      "versionLogicielle": "v2.3",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-17",
+      "parametresReseaux": "192.168.1.13",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 0,
+      "heuresSurBatterie": 39,
+      "hopital": "Hôpital Saint-Louis",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2023-07-14",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2024-04-11",
+          "rapportControleQualite": "RAS"
+        },
+        {
+          "type": "Convexe",
+          "dateMiseEnService": "2024-07-31",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 514,
+        "heuresUtilisationParSonde": 612
+      },
+      "examens": [
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 40,
+          "dureeEffectiveEchoMinutes": 25,
+          "dateExamen": "2024-06-13T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 22,
+          "dureeEffectiveEchoMinutes": 7,
+          "dateExamen": "2024-11-07T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 34,
+          "dureeEffectiveEchoMinutes": 21,
+          "dateExamen": "2025-03-05T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 57,
+          "dureeEffectiveEchoMinutes": 49,
+          "dateExamen": "2024-09-02T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 21,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2024-10-12T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 5",
+      "systemId": "SYS005",
+      "numeroSerie": "SN005",
+      "versionLogicielle": "v3.1",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-08-21",
+      "parametresReseaux": "192.168.1.14",
+      "diagnostic": "OK",
+      "tempsVeille": 33,
+      "nbExtinctions": 17,
+      "heuresSurBatterie": 25,
+      "hopital": "Hôpital Jean Verdier",
+      "sondes": [
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2023-10-13",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1421,
+        "heuresUtilisationParSonde": 737
+      },
+      "examens": [
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 49,
+          "dureeEffectiveEchoMinutes": 36,
+          "dateExamen": "2025-03-05T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 43,
+          "dureeEffectiveEchoMinutes": 33,
+          "dateExamen": "2024-09-07T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 34,
+          "dureeEffectiveEchoMinutes": 26,
+          "dateExamen": "2025-03-06T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 51,
+          "dureeEffectiveEchoMinutes": 40,
+          "dateExamen": "2024-08-21T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 25,
+          "dureeEffectiveEchoMinutes": 18,
+          "dateExamen": "2024-12-25T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 6",
+      "systemId": "SYS006",
+      "numeroSerie": "SN006",
+      "versionLogicielle": "v1.6",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-01-09",
+      "parametresReseaux": "192.168.1.15",
+      "diagnostic": "OK",
+      "tempsVeille": 16,
+      "nbExtinctions": 15,
+      "heuresSurBatterie": 46,
+      "hopital": "Hôpital Cochin",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-07-13",
+          "rapportControleQualite": "RAS"
+        },
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2023-05-16",
+          "rapportControleQualite": "Changement connecteur"
+        },
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2023-05-04",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1271,
+        "heuresUtilisationParSonde": 416
+      },
+      "examens": [
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 40,
+          "dureeEffectiveEchoMinutes": 25,
+          "dateExamen": "2024-09-23T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 42,
+          "dureeEffectiveEchoMinutes": 34,
+          "dateExamen": "2025-03-17T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 44,
+          "dureeEffectiveEchoMinutes": 32,
+          "dateExamen": "2025-01-18T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 46,
+          "dureeEffectiveEchoMinutes": 38,
+          "dateExamen": "2024-12-09T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 39,
+          "dureeEffectiveEchoMinutes": 24,
+          "dateExamen": "2025-03-23T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 24,
+          "dureeEffectiveEchoMinutes": 11,
+          "dateExamen": "2024-05-26T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 25,
+          "dureeEffectiveEchoMinutes": 18,
+          "dateExamen": "2025-04-08T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 7",
+      "systemId": "SYS007",
+      "numeroSerie": "SN007",
+      "versionLogicielle": "v3.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-11-20",
+      "parametresReseaux": "192.168.1.16",
+      "diagnostic": "OK",
+      "tempsVeille": 18,
+      "nbExtinctions": 12,
+      "heuresSurBatterie": 41,
+      "hopital": "Hôpital Saint-Louis",
+      "sondes": [
+        {
+          "type": "Convexe",
+          "dateMiseEnService": "2025-01-10",
+          "rapportControleQualite": "RAS"
+        },
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2023-01-08",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Convexe",
+          "dateMiseEnService": "2024-09-15",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 559,
+        "heuresUtilisationParSonde": 688
+      },
+      "examens": [
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 50,
+          "dureeEffectiveEchoMinutes": 35,
+          "dateExamen": "2025-02-28T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 31,
+          "dureeEffectiveEchoMinutes": 21,
+          "dateExamen": "2025-05-11T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 42,
+          "dureeEffectiveEchoMinutes": 37,
+          "dateExamen": "2025-05-17T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 56,
+          "dureeEffectiveEchoMinutes": 46,
+          "dateExamen": "2025-04-01T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 8",
+      "systemId": "SYS008",
+      "numeroSerie": "SN008",
+      "versionLogicielle": "v1.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-10-28",
+      "parametresReseaux": "192.168.1.17",
+      "diagnostic": "OK",
+      "tempsVeille": 34,
+      "nbExtinctions": 20,
+      "heuresSurBatterie": 45,
+      "hopital": "Hôpital Jean Verdier",
+      "sondes": [
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2023-09-22",
+          "rapportControleQualite": "Changement connecteur"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 720,
+        "heuresUtilisationParSonde": 999
+      },
+      "examens": [
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 44,
+          "dureeEffectiveEchoMinutes": 29,
+          "dateExamen": "2024-10-03T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 55,
+          "dureeEffectiveEchoMinutes": 40,
+          "dateExamen": "2024-06-04T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 46,
+          "dureeEffectiveEchoMinutes": 35,
+          "dateExamen": "2024-05-25T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 26,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2025-01-10T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 25,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2025-02-19T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 29,
+          "dureeEffectiveEchoMinutes": 16,
+          "dateExamen": "2024-12-20T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 9",
+      "systemId": "SYS009",
+      "numeroSerie": "SN009",
+      "versionLogicielle": "v2.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-19",
+      "parametresReseaux": "192.168.1.18",
+      "diagnostic": "OK",
+      "tempsVeille": 44,
+      "nbExtinctions": 0,
+      "heuresSurBatterie": 40,
+      "hopital": "Hôpital Cochin",
+      "sondes": [
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2025-01-17",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 552,
+        "heuresUtilisationParSonde": 212
+      },
+      "examens": [
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 50,
+          "dureeEffectiveEchoMinutes": 43,
+          "dateExamen": "2024-10-06T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 20,
+          "dureeEffectiveEchoMinutes": 5,
+          "dateExamen": "2024-10-18T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 27,
+          "dureeEffectiveEchoMinutes": 19,
+          "dateExamen": "2024-11-24T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 24,
+          "dureeEffectiveEchoMinutes": 19,
+          "dateExamen": "2024-09-20T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 38,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2025-01-16T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 41,
+          "dureeEffectiveEchoMinutes": 34,
+          "dateExamen": "2025-05-09T07:52:28"
+        },
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 35,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2025-05-16T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 10",
+      "systemId": "SYS010",
+      "numeroSerie": "SN010",
+      "versionLogicielle": "v1.5",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-06-23",
+      "parametresReseaux": "192.168.1.19",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 16,
+      "heuresSurBatterie": 43,
+      "hopital": "Hôpital Saint-Louis",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-01-18",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 801,
+        "heuresUtilisationParSonde": 316
+      },
+      "examens": [
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 35,
+          "dureeEffectiveEchoMinutes": 23,
+          "dateExamen": "2025-02-19T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 41,
+          "dureeEffectiveEchoMinutes": 26,
+          "dateExamen": "2024-09-15T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 54,
+          "dureeEffectiveEchoMinutes": 48,
+          "dateExamen": "2024-11-08T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 42,
+          "dureeEffectiveEchoMinutes": 30,
+          "dateExamen": "2024-09-03T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 60,
+          "dureeEffectiveEchoMinutes": 52,
+          "dateExamen": "2024-10-11T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 11",
+      "systemId": "SYS011",
+      "numeroSerie": "SN011",
+      "versionLogicielle": "v1.9",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-07-19",
+      "parametresReseaux": "192.168.1.20",
+      "diagnostic": "OK",
+      "tempsVeille": 21,
+      "nbExtinctions": 2,
+      "heuresSurBatterie": 23,
+      "hopital": "Hôpital Jean Verdier",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-03-12",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2023-05-21",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2023-01-02",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1997,
+        "heuresUtilisationParSonde": 805
+      },
+      "examens": [
+        {
+          "application": "MSK",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 55,
+          "dureeEffectiveEchoMinutes": 46,
+          "dateExamen": "2025-01-02T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 37,
+          "dureeEffectiveEchoMinutes": 23,
+          "dateExamen": "2025-04-28T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 40,
+          "dureeEffectiveEchoMinutes": 34,
+          "dateExamen": "2024-12-22T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 30,
+          "dureeEffectiveEchoMinutes": 17,
+          "dateExamen": "2024-07-28T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 50,
+          "dureeEffectiveEchoMinutes": 35,
+          "dateExamen": "2024-06-04T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 12",
+      "systemId": "SYS012",
+      "numeroSerie": "SN012",
+      "versionLogicielle": "v2.8",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-09-14",
+      "parametresReseaux": "192.168.1.21",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 8,
+      "heuresSurBatterie": 17,
+      "hopital": "Hôpital Cochin",
+      "sondes": [
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2023-04-07",
+          "rapportControleQualite": "RAS"
+        },
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2024-12-24",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1956,
+        "heuresUtilisationParSonde": 989
+      },
+      "examens": [
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 25,
+          "dureeEffectiveEchoMinutes": 12,
+          "dateExamen": "2024-08-23T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 42,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2024-06-24T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 58,
+          "dureeEffectiveEchoMinutes": 51,
+          "dateExamen": "2024-07-19T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 13",
+      "systemId": "SYS013",
+      "numeroSerie": "SN013",
+      "versionLogicielle": "v1.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-10-19",
+      "parametresReseaux": "192.168.1.22",
+      "diagnostic": "OK",
+      "tempsVeille": 26,
+      "nbExtinctions": 14,
+      "heuresSurBatterie": 25,
+      "hopital": "Hôpital Saint-Louis",
+      "sondes": [
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2024-12-28",
+          "rapportControleQualite": "Changement connecteur"
+        },
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-08-19",
+          "rapportControleQualite": "RAS"
+        },
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2024-11-04",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1871,
+        "heuresUtilisationParSonde": 544
+      },
+      "examens": [
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 40,
+          "dureeEffectiveEchoMinutes": 27,
+          "dateExamen": "2025-05-12T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 53,
+          "dureeEffectiveEchoMinutes": 43,
+          "dateExamen": "2025-02-11T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 39,
+          "dureeEffectiveEchoMinutes": 25,
+          "dateExamen": "2025-01-26T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Dupont",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 31,
+          "dureeEffectiveEchoMinutes": 24,
+          "dateExamen": "2024-12-28T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Bernard",
+            "specialite": "Gynécologie"
+          },
+          "dureeTotaleMinutes": 22,
+          "dureeEffectiveEchoMinutes": 14,
+          "dateExamen": "2024-05-22T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 14",
+      "systemId": "SYS014",
+      "numeroSerie": "SN014",
+      "versionLogicielle": "v1.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-10-21",
+      "parametresReseaux": "192.168.1.23",
+      "diagnostic": "OK",
+      "tempsVeille": 24,
+      "nbExtinctions": 3,
+      "heuresSurBatterie": 22,
+      "hopital": "Hôpital Jean Verdier",
+      "sondes": [
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2023-02-17",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Secteur",
+          "dateMiseEnService": "2023-06-19",
+          "rapportControleQualite": "Légère usure"
+        },
+        {
+          "type": "Endocavitaire",
+          "dateMiseEnService": "2024-07-05",
+          "rapportControleQualite": "Légère usure"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 1007,
+        "heuresUtilisationParSonde": 674
+      },
+      "examens": [
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 47,
+          "dureeEffectiveEchoMinutes": 38,
+          "dateExamen": "2024-12-06T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 60,
+          "dureeEffectiveEchoMinutes": 54,
+          "dateExamen": "2025-04-06T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Lefevre",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 43,
+          "dureeEffectiveEchoMinutes": 35,
+          "dateExamen": "2025-05-11T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 44,
+          "dureeEffectiveEchoMinutes": 36,
+          "dateExamen": "2024-10-08T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 40,
+          "dureeEffectiveEchoMinutes": 28,
+          "dateExamen": "2025-03-16T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Moreau",
+            "specialite": "Neurologie"
+          },
+          "dureeTotaleMinutes": 50,
+          "dureeEffectiveEchoMinutes": 38,
+          "dateExamen": "2025-05-03T07:52:28"
+        }
+      ]
+    },
+    {
+      "designation": "Echographe Modèle 15",
+      "systemId": "SYS015",
+      "numeroSerie": "SN015",
+      "versionLogicielle": "v3.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-08-21",
+      "parametresReseaux": "192.168.1.24",
+      "diagnostic": "OK",
+      "tempsVeille": 13,
+      "nbExtinctions": 4,
+      "heuresSurBatterie": 24,
+      "hopital": "Hôpital Cochin",
+      "sondes": [
+        {
+          "type": "Linéaire",
+          "dateMiseEnService": "2024-10-12",
+          "rapportControleQualite": "RAS"
+        }
+      ],
+      "statistiqueUtilisation": {
+        "heuresTotalesUtilisation": 529,
+        "heuresUtilisationParSonde": 402
+      },
+      "examens": [
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 25,
+          "dureeEffectiveEchoMinutes": 16,
+          "dateExamen": "2024-08-12T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Durand",
+            "specialite": "Radiologie"
+          },
+          "dureeTotaleMinutes": 38,
+          "dureeEffectiveEchoMinutes": 29,
+          "dateExamen": "2024-10-24T07:52:28"
+        },
+        {
+          "application": "Obstétrique",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 47,
+          "dureeEffectiveEchoMinutes": 42,
+          "dateExamen": "2024-10-09T07:52:28"
+        },
+        {
+          "application": "Abdominal",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 57,
+          "dureeEffectiveEchoMinutes": 47,
+          "dateExamen": "2025-01-12T07:52:28"
+        },
+        {
+          "application": "Nerfs",
+          "praticien": {
+            "nom": "Dr Petit",
+            "specialite": "Orthopédie"
+          },
+          "dureeTotaleMinutes": 32,
+          "dureeEffectiveEchoMinutes": 20,
+          "dateExamen": "2024-10-16T07:52:28"
+        }
+      ]
+    }
+  ]
+}
