@@ -1,0 +1,894 @@
+{
+  "hopitaux": [
+    {
+      "id": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Hôpital Cochin"
+    }
+  ],
+  "medecins": [
+    {
+      "id": "Dr Dupont",
+      "specialite": "Radiologie",
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Dr Bernard",
+      "specialite": "Gynécologie",
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Dr Lefevre",
+      "specialite": "Radiologie",
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Dr Moreau",
+      "specialite": "Neurologie",
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Dr Petit",
+      "specialite": "Orthopédie",
+      "hopitalId": "Hôpital Cochin"
+    },
+    {
+      "id": "Dr Durand",
+      "specialite": "Radiologie",
+      "hopitalId": "Hôpital Cochin"
+    }
+  ],
+  "echographes": [
+    {
+      "id": "Echographe Modèle 1",
+      "systemId": "SYS001",
+      "numeroSerie": "SN001",
+      "versionLogicielle": "v3.2",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-03-24",
+      "parametresReseaux": "192.168.1.10",
+      "diagnostic": "OK",
+      "tempsVeille": 23,
+      "nbExtinctions": 18,
+      "heuresSurBatterie": 47,
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Echographe Modèle 2",
+      "systemId": "SYS002",
+      "numeroSerie": "SN002",
+      "versionLogicielle": "v1.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-11-08",
+      "parametresReseaux": "192.168.1.11",
+      "diagnostic": "OK",
+      "tempsVeille": 48,
+      "nbExtinctions": 11,
+      "heuresSurBatterie": 50,
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Echographe Modèle 3",
+      "systemId": "SYS003",
+      "numeroSerie": "SN003",
+      "versionLogicielle": "v2.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-02-20",
+      "parametresReseaux": "192.168.1.12",
+      "diagnostic": "OK",
+      "tempsVeille": 12,
+      "nbExtinctions": 4,
+      "heuresSurBatterie": 37,
+      "hopitalId": "Hôpital Cochin"
+    },
+    {
+      "id": "Echographe Modèle 4",
+      "systemId": "SYS004",
+      "numeroSerie": "SN004",
+      "versionLogicielle": "v1.8",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-15",
+      "parametresReseaux": "192.168.1.13",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 20,
+      "heuresSurBatterie": 33,
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Echographe Modèle 5",
+      "systemId": "SYS005",
+      "numeroSerie": "SN005",
+      "versionLogicielle": "v1.9",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-10-30",
+      "parametresReseaux": "192.168.1.14",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 14,
+      "heuresSurBatterie": 47,
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Echographe Modèle 6",
+      "systemId": "SYS006",
+      "numeroSerie": "SN006",
+      "versionLogicielle": "v2.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2024-02-26",
+      "parametresReseaux": "192.168.1.15",
+      "diagnostic": "OK",
+      "tempsVeille": 49,
+      "nbExtinctions": 11,
+      "heuresSurBatterie": 10,
+      "hopitalId": "Hôpital Cochin"
+    },
+    {
+      "id": "Echographe Modèle 7",
+      "systemId": "SYS007",
+      "numeroSerie": "SN007",
+      "versionLogicielle": "v2.0",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-06-23",
+      "parametresReseaux": "192.168.1.16",
+      "diagnostic": "OK",
+      "tempsVeille": 17,
+      "nbExtinctions": 6,
+      "heuresSurBatterie": 7,
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Echographe Modèle 8",
+      "systemId": "SYS008",
+      "numeroSerie": "SN008",
+      "versionLogicielle": "v2.9",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-05-08",
+      "parametresReseaux": "192.168.1.17",
+      "diagnostic": "OK",
+      "tempsVeille": 43,
+      "nbExtinctions": 6,
+      "heuresSurBatterie": 35,
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Echographe Modèle 9",
+      "systemId": "SYS009",
+      "numeroSerie": "SN009",
+      "versionLogicielle": "v1.7",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-08-15",
+      "parametresReseaux": "192.168.1.18",
+      "diagnostic": "OK",
+      "tempsVeille": 32,
+      "nbExtinctions": 1,
+      "heuresSurBatterie": 50,
+      "hopitalId": "Hôpital Cochin"
+    },
+    {
+      "id": "Echographe Modèle 10",
+      "systemId": "SYS010",
+      "numeroSerie": "SN010",
+      "versionLogicielle": "v2.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-03-09",
+      "parametresReseaux": "192.168.1.19",
+      "diagnostic": "OK",
+      "tempsVeille": 26,
+      "nbExtinctions": 7,
+      "heuresSurBatterie": 11,
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Echographe Modèle 11",
+      "systemId": "SYS011",
+      "numeroSerie": "SN011",
+      "versionLogicielle": "v1.3",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-11-11",
+      "parametresReseaux": "192.168.1.20",
+      "diagnostic": "OK",
+      "tempsVeille": 12,
+      "nbExtinctions": 15,
+      "heuresSurBatterie": 18,
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Echographe Modèle 12",
+      "systemId": "SYS012",
+      "numeroSerie": "SN012",
+      "versionLogicielle": "v1.5",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-10-15",
+      "parametresReseaux": "192.168.1.21",
+      "diagnostic": "OK",
+      "tempsVeille": 47,
+      "nbExtinctions": 18,
+      "heuresSurBatterie": 26,
+      "hopitalId": "Hôpital Cochin"
+    },
+    {
+      "id": "Echographe Modèle 13",
+      "systemId": "SYS013",
+      "numeroSerie": "SN013",
+      "versionLogicielle": "v3.1",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-09-20",
+      "parametresReseaux": "192.168.1.22",
+      "diagnostic": "OK",
+      "tempsVeille": 33,
+      "nbExtinctions": 2,
+      "heuresSurBatterie": 35,
+      "hopitalId": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "Echographe Modèle 14",
+      "systemId": "SYS014",
+      "numeroSerie": "SN014",
+      "versionLogicielle": "v3.1",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2023-05-30",
+      "parametresReseaux": "192.168.1.23",
+      "diagnostic": "OK",
+      "tempsVeille": 49,
+      "nbExtinctions": 13,
+      "heuresSurBatterie": 50,
+      "hopitalId": "Hôpital Jean Verdier"
+    },
+    {
+      "id": "Echographe Modèle 15",
+      "systemId": "SYS015",
+      "numeroSerie": "SN015",
+      "versionLogicielle": "v1.4",
+      "optionsDisponibles": "Doppler, 3D Scan",
+      "dateMiseEnService": "2022-11-18",
+      "parametresReseaux": "192.168.1.24",
+      "diagnostic": "OK",
+      "tempsVeille": 29,
+      "nbExtinctions": 15,
+      "heuresSurBatterie": 41,
+      "hopitalId": "Hôpital Cochin"
+    }
+  ],
+  "sondes": [
+    {
+      "id": "Sonde A",
+      "echographeId": "Echographe Modèle 1",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-04-20",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde B",
+      "echographeId": "Echographe Modèle 1",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-03-04",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde C",
+      "echographeId": "Echographe Modèle 2",
+      "type": "Linéaire",
+      "dateMiseEnService": "2025-01-29",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde D",
+      "echographeId": "Echographe Modèle 2",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-08-10",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "Sonde E",
+      "echographeId": "Echographe Modèle 2",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-07-08",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde F",
+      "echographeId": "Echographe Modèle 3",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-04-27",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde G",
+      "echographeId": "Echographe Modèle 4",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-12-23",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde H",
+      "echographeId": "Echographe Modèle 4",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-10-27",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde I",
+      "echographeId": "Echographe Modèle 4",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-10-16",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde J",
+      "echographeId": "Echographe Modèle 5",
+      "type": "Convexe",
+      "dateMiseEnService": "2023-11-07",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde K",
+      "echographeId": "Echographe Modèle 6",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-01-10",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "Sonde L",
+      "echographeId": "Echographe Modèle 6",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-04-08",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde M",
+      "echographeId": "Echographe Modèle 7",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-06-21",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde N",
+      "echographeId": "Echographe Modèle 8",
+      "type": "Secteur",
+      "dateMiseEnService": "2024-12-30",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "Sonde O",
+      "echographeId": "Echographe Modèle 8",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-12-17",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "Sonde P",
+      "echographeId": "Echographe Modèle 8",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-07-05",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde Q",
+      "echographeId": "Echographe Modèle 9",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-06-24",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde R",
+      "echographeId": "Echographe Modèle 9",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-02-04",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde S",
+      "echographeId": "Echographe Modèle 9",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-08-26",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde T",
+      "echographeId": "Echographe Modèle 10",
+      "type": "Secteur",
+      "dateMiseEnService": "2022-12-22",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde U",
+      "echographeId": "Echographe Modèle 11",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-10-05",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde V",
+      "echographeId": "Echographe Modèle 11",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-04-02",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde W",
+      "echographeId": "Echographe Modèle 11",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-01-02",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde X",
+      "echographeId": "Echographe Modèle 12",
+      "type": "Convexe",
+      "dateMiseEnService": "2024-02-29",
+      "rapportControleQualite": "RAS"
+    },
+    {
+      "id": "Sonde Y",
+      "echographeId": "Echographe Modèle 13",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2024-06-25",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde Z",
+      "echographeId": "Echographe Modèle 13",
+      "type": "Linéaire",
+      "dateMiseEnService": "2023-04-27",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde AA",
+      "echographeId": "Echographe Modèle 14",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-10-06",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde AB",
+      "echographeId": "Echographe Modèle 14",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-11-09",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde AC",
+      "echographeId": "Echographe Modèle 14",
+      "type": "Endocavitaire",
+      "dateMiseEnService": "2023-10-22",
+      "rapportControleQualite": "Légère usure"
+    },
+    {
+      "id": "Sonde AD",
+      "echographeId": "Echographe Modèle 15",
+      "type": "Linéaire",
+      "dateMiseEnService": "2024-10-23",
+      "rapportControleQualite": "Changement connecteur"
+    },
+    {
+      "id": "Sonde AE",
+      "echographeId": "Echographe Modèle 15",
+      "type": "Secteur",
+      "dateMiseEnService": "2023-09-23",
+      "rapportControleQualite": "Changement connecteur"
+    }
+  ],
+  "utilisations": [
+    {
+      "id": "19061ef9-1a9e-458d-b26a-8936b11a85dc",
+      "echographeId": "Echographe Modèle 1",
+      "heuresTotalesUtilisation": 985,
+      "heuresUtilisationParSonde": 332
+    },
+    {
+      "id": "158e3f22-1012-4cb1-a9fc-b94cdd2be0d9",
+      "echographeId": "Echographe Modèle 2",
+      "heuresTotalesUtilisation": 663,
+      "heuresUtilisationParSonde": 434
+    },
+    {
+      "id": "ced54651-9401-4728-a347-1b1aa133314b",
+      "echographeId": "Echographe Modèle 3",
+      "heuresTotalesUtilisation": 1917,
+      "heuresUtilisationParSonde": 861
+    },
+    {
+      "id": "6519c316-d585-4b49-a0e0-0599645ec6c6",
+      "echographeId": "Echographe Modèle 4",
+      "heuresTotalesUtilisation": 1399,
+      "heuresUtilisationParSonde": 480
+    },
+    {
+      "id": "ee61d8f7-ad4f-4ff8-aa67-b7ddee9eb8e6",
+      "echographeId": "Echographe Modèle 5",
+      "heuresTotalesUtilisation": 904,
+      "heuresUtilisationParSonde": 444
+    },
+    {
+      "id": "78e606c9-0f2e-4f3a-9adf-918f9c0f46e6",
+      "echographeId": "Echographe Modèle 6",
+      "heuresTotalesUtilisation": 1865,
+      "heuresUtilisationParSonde": 205
+    },
+    {
+      "id": "7de44436-cad3-496a-9019-d279971aa43a",
+      "echographeId": "Echographe Modèle 7",
+      "heuresTotalesUtilisation": 1534,
+      "heuresUtilisationParSonde": 511
+    },
+    {
+      "id": "ff465552-1b74-4c15-a793-4010bbbe23e3",
+      "echographeId": "Echographe Modèle 8",
+      "heuresTotalesUtilisation": 907,
+      "heuresUtilisationParSonde": 419
+    },
+    {
+      "id": "5041c528-e935-43f1-bffa-70810ef3aa8a",
+      "echographeId": "Echographe Modèle 9",
+      "heuresTotalesUtilisation": 1073,
+      "heuresUtilisationParSonde": 644
+    },
+    {
+      "id": "fb6e168b-2588-413e-b450-15f3dba65107",
+      "echographeId": "Echographe Modèle 10",
+      "heuresTotalesUtilisation": 1881,
+      "heuresUtilisationParSonde": 524
+    },
+    {
+      "id": "a992bd34-209c-45b1-abc9-8f6c852c152a",
+      "echographeId": "Echographe Modèle 11",
+      "heuresTotalesUtilisation": 1450,
+      "heuresUtilisationParSonde": 796
+    },
+    {
+      "id": "b09a90c8-e563-4d74-94d9-1b3a48e0350a",
+      "echographeId": "Echographe Modèle 12",
+      "heuresTotalesUtilisation": 1332,
+      "heuresUtilisationParSonde": 327
+    },
+    {
+      "id": "502d1463-069e-45db-af49-bf1b36515025",
+      "echographeId": "Echographe Modèle 13",
+      "heuresTotalesUtilisation": 1255,
+      "heuresUtilisationParSonde": 511
+    },
+    {
+      "id": "c222314d-c2d5-4a4c-8116-6edbd8788149",
+      "echographeId": "Echographe Modèle 14",
+      "heuresTotalesUtilisation": 914,
+      "heuresUtilisationParSonde": 926
+    },
+    {
+      "id": "483cd4b7-6ed5-440d-a59d-a67a545de452",
+      "echographeId": "Echographe Modèle 15",
+      "heuresTotalesUtilisation": 1635,
+      "heuresUtilisationParSonde": 471
+    }
+  ],
+  "examens": [
+    {
+      "id": "Examen A",
+      "echographeId": "Echographe Modèle 1",
+      "medecinId": "Dr Bernard",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 49,
+      "dureeEffectiveEchoMinutes": 36,
+      "dateExamen": "2024-09-02"
+    },
+    {
+      "id": "Examen B",
+      "echographeId": "Echographe Modèle 1",
+      "medecinId": "Dr Bernard",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 33,
+      "dureeEffectiveEchoMinutes": 18,
+      "dateExamen": "2024-11-15"
+    },
+    {
+      "id": "Examen C",
+      "echographeId": "Echographe Modèle 1",
+      "medecinId": "Dr Bernard",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 42,
+      "dureeEffectiveEchoMinutes": 34,
+      "dateExamen": "2025-04-17"
+    },
+    {
+      "id": "Examen D",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Moreau",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 24,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2025-01-22"
+    },
+    {
+      "id": "Examen E",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Moreau",
+      "application": "MSK",
+      "dureeTotaleMinutes": 28,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2024-07-17"
+    },
+    {
+      "id": "Examen F",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Lefevre",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 45,
+      "dateExamen": "2024-10-16"
+    },
+    {
+      "id": "Examen G",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Moreau",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2025-01-20"
+    },
+    {
+      "id": "Examen H",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Moreau",
+      "application": "MSK",
+      "dureeTotaleMinutes": 45,
+      "dureeEffectiveEchoMinutes": 35,
+      "dateExamen": "2024-07-11"
+    },
+    {
+      "id": "Examen I",
+      "echographeId": "Echographe Modèle 2",
+      "medecinId": "Dr Moreau",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2025-03-07"
+    },
+    {
+      "id": "Examen J",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Durand",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-11-27"
+    },
+    {
+      "id": "Examen K",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Petit",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 53,
+      "dateExamen": "2025-02-23"
+    },
+    {
+      "id": "Examen L",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Petit",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 11,
+      "dateExamen": "2024-12-12"
+    },
+    {
+      "id": "Examen M",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Durand",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 46,
+      "dureeEffectiveEchoMinutes": 41,
+      "dateExamen": "2025-03-24"
+    },
+    {
+      "id": "Examen N",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Durand",
+      "application": "MSK",
+      "dureeTotaleMinutes": 51,
+      "dureeEffectiveEchoMinutes": 43,
+      "dateExamen": "2024-12-21"
+    },
+    {
+      "id": "Examen O",
+      "echographeId": "Echographe Modèle 3",
+      "medecinId": "Dr Durand",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-06-21"
+    },
+    {
+      "id": "Examen P",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 59,
+      "dureeEffectiveEchoMinutes": 50,
+      "dateExamen": "2025-02-28"
+    },
+    {
+      "id": "Examen Q",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 52,
+      "dureeEffectiveEchoMinutes": 46,
+      "dateExamen": "2024-10-25"
+    },
+    {
+      "id": "Examen R",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 55,
+      "dureeEffectiveEchoMinutes": 49,
+      "dateExamen": "2025-01-18"
+    },
+    {
+      "id": "Examen S",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 54,
+      "dureeEffectiveEchoMinutes": 41,
+      "dateExamen": "2024-10-31"
+    },
+    {
+      "id": "Examen T",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 21,
+      "dateExamen": "2024-11-11"
+    },
+    {
+      "id": "Examen U",
+      "echographeId": "Echographe Modèle 4",
+      "medecinId": "Dr Dupont",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 22,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2024-09-30"
+    },
+    {
+      "id": "Examen V",
+      "echographeId": "Echographe Modèle 5",
+      "medecinId": "Dr Moreau",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 50,
+      "dureeEffectiveEchoMinutes": 38,
+      "dateExamen": "2024-12-02"
+    },
+    {
+      "id": "Examen W",
+      "echographeId": "Echographe Modèle 5",
+      "medecinId": "Dr Lefevre",
+      "application": "MSK",
+      "dureeTotaleMinutes": 23,
+      "dureeEffectiveEchoMinutes": 11,
+      "dateExamen": "2025-02-23"
+    },
+    {
+      "id": "Examen X",
+      "echographeId": "Echographe Modèle 5",
+      "medecinId": "Dr Moreau",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 18,
+      "dateExamen": "2024-12-13"
+    },
+    {
+      "id": "Examen Y",
+      "echographeId": "Echographe Modèle 5",
+      "medecinId": "Dr Lefevre",
+      "application": "MSK",
+      "dureeTotaleMinutes": 20,
+      "dureeEffectiveEchoMinutes": 15,
+      "dateExamen": "2024-08-03"
+    },
+    {
+      "id": "Examen Z",
+      "echographeId": "Echographe Modèle 6",
+      "medecinId": "Dr Petit",
+      "application": "Abdominal",
+      "dureeTotaleMinutes": 39,
+      "dureeEffectiveEchoMinutes": 26,
+      "dateExamen": "2025-02-28"
+    },
+    {
+      "id": "Examen AA",
+      "echographeId": "Echographe Modèle 6",
+      "medecinId": "Dr Durand",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 33,
+      "dureeEffectiveEchoMinutes": 21,
+      "dateExamen": "2025-03-20"
+    },
+    {
+      "id": "Examen AB",
+      "echographeId": "Echographe Modèle 8",
+      "medecinId": "Dr Lefevre",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 54,
+      "dureeEffectiveEchoMinutes": 40,
+      "dateExamen": "2025-04-15"
+    },
+    {
+      "id": "Examen AC",
+      "echographeId": "Echographe Modèle 8",
+      "medecinId": "Dr Lefevre",
+      "application": "MSK",
+      "dureeTotaleMinutes": 58,
+      "dureeEffectiveEchoMinutes": 47,
+      "dateExamen": "2024-08-11"
+    },
+    {
+      "id": "Examen AD",
+      "echographeId": "Echographe Modèle 8",
+      "medecinId": "Dr Moreau",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 45,
+      "dureeEffectiveEchoMinutes": 30,
+      "dateExamen": "2025-04-03"
+    },
+    {
+      "id": "Examen AE",
+      "echographeId": "Echographe Modèle 9",
+      "medecinId": "Dr Durand",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 40,
+      "dureeEffectiveEchoMinutes": 28,
+      "dateExamen": "2024-12-10"
+    },
+    {
+      "id": "Examen AF",
+      "echographeId": "Echographe Modèle 9",
+      "medecinId": "Dr Durand",
+      "application": "Nerfs",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2025-02-20"
+    },
+    {
+      "id": "Examen AG",
+      "echographeId": "Echographe Modèle 9",
+      "medecinId": "Dr Durand",
+      "application": "MSK",
+      "dureeTotaleMinutes": 21,
+      "dureeEffectiveEchoMinutes": 13,
+      "dateExamen": "2024-10-06"
+    },
+    {
+      "id": "Examen AH",
+      "echographeId": "Echographe Modèle 9",
+      "medecinId": "Dr Petit",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 47,
+      "dureeEffectiveEchoMinutes": 33,
+      "dateExamen": "2024-10-16"
+    },
+    {
+      "id": "Examen AI",
+      "echographeId": "Echographe Modèle 10",
+      "medecinId": "Dr Dupont",
+      "application": "MSK",
+      "dureeTotaleMinutes": 31,
+      "dureeEffectiveEchoMinutes": 22,
+      "dateExamen": "2024-06-07"
+    },
+    {
+      "id": "Examen AF",
+      "echographeId": "Echographe Modèle 10",
+      "medecinId": "Dr Bernard",
+      "application": "Obstétrique",
+      "dureeTotaleMinutes": 24,
+      "dureeEffectiveEchoMinutes": 16,
+      "dateExamen": "2024-12-07"
+    }
+  ]
+}

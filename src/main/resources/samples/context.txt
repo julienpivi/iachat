@@ -1,0 +1,5 @@
+Il y a :
+- 3 hôpitaux
+- 15 échographes
+
+L'echo 7, 11,12,13,14 et 15 n'ont pas d'examens
